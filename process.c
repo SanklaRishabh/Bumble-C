@@ -47,9 +47,9 @@ void shellKeepAlive(void) {
 
   do {
     if (username == NULL || hostFlag != 0) {
-      (void)printf("> ");
+      (void)printf("\033[1;32m>\033[0m ");
     } else {
-      (void)printf("%s@%s:$ ", username, hostname);
+      (void)printf("\033[1;32m%s@%s\033[0m:$ ", username, hostname);
     }
 
     charsRead = shellReadLine(&line, &lineSize);
