@@ -64,6 +64,11 @@ void shellKeepAlive(void) {
         }
 
         exit(EXIT_RL_FAILURE);
+      } else {
+        // Handling EOF trigger.
+        (void)printf("\nLogout\n");
+        free(line);
+        exit(EXIT_SUCCESS);
       }
     }
 
