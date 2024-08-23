@@ -1,6 +1,6 @@
 # Bumble-C
 
-[![Version](https://img.shields.io/badge/version-0.1.1--pre--release-orange.svg)](https://semver.org/)
+[![Version](https://img.shields.io/badge/version-0.1.2--pre--release-orange.svg)](https://semver.org/)
 ![C](https://img.shields.io/badge/language-C-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Unix%2FLinux-informational.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
