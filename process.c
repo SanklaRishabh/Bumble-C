@@ -6,7 +6,6 @@
 #include <sys/wait.h>
 #include <unistd.h>
 
-// Define a default buffer size.
 #define HOSTNAME_BUFSIZE 1024
 #define BSH_RL_BUFSIZE 1024
 #define BSH_RL_FAILURE NULL
