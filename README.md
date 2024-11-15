@@ -15,7 +15,7 @@ To install Bumble-C, clone the repository and compile it:
 
 ```bash
 git clone https://github.com/SanklaRishabh/Bumble-C
-cd Bumble-C
+cd Bumble-C/src/
 make
 ```
 
